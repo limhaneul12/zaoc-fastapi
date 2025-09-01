@@ -1,0 +1,10 @@
+from enum import Enum
+
+
+class ConsumerState(Enum):
+    DISCONNECTED = "DISCONNECTED"
+    CONNECTING = "CONNECTING"
+    PROCESSING = "PROCESSING"
+    FAILED = "FAILED"
+    RETRYING = "RETRYING"
+    STOPPED = "STOPPED"
